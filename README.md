@@ -6,11 +6,15 @@ The React frontend application is designed to display a list of cities along wit
 Components:
 The CityList component is responsible for rendering the list of cities along with search, filter, and sorting functionalities.
 Props:
-cities  An array of city objects containing details like name, country, continent, founded year, and landmarks.
+cities
+An array of city objects containing details like name, country, continent, founded year, and landmarks.
 Functionality:
-Search Users can search for cities by typing in the search input field. The list of cities dynamically updates as the user types.
-Filter Users can filter cities by continent using the dropdown menu.
-Sort Users can sort the list of cities either alphabetically by name or by the
+Search
+Users can search for cities by typing in the search input field. The list of cities dynamically updates as the user types.
+Filter
+Users can filter cities by continent using the dropdown menu.
+Sort
+Users can sort the list of cities either alphabetically by name or by the
 year founded. They can also toggle between ascending and descending order.
 App.js:
 The App component serves as the entry point of the React application. It fetches city data from the backend API and passes it down to the CityList component.
