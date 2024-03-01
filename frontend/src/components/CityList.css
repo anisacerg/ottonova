@@ -1,0 +1,57 @@
+.city-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.city-list {
+  width: 80%;
+  margin: auto;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-dropdown {
+  width: 200px;
+}
+
+.sort-button {
+  background-color: #1976d2;
+  color: white;
+}
+
+.city-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+.city-list h2 {
+  text-align: center;
+}
